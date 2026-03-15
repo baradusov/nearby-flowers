@@ -10,6 +10,10 @@ An iOS (React Native + Expo) app for sharing bouquets with nearby iPhones via sw
 - Being near other people speeds up seed growth
 - Works offline — seeds keep growing even when the app is closed
 
+|                                                     |                                                     |
+| --------------------------------------------------- | --------------------------------------------------- |
+| <img src="docs/nearby-flowers-1.png" width="300" /> | <img src="docs/nearby-flowers-2.png" width="300" /> |
+
 ## Running
 
 ```
