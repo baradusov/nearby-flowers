@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "nearby-flowers",
+    "name": "Nearby Flowers",
     "slug": "nearby-flowers",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -9,19 +9,24 @@
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#FFF8F0"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": false,
+      "bundleIdentifier": "com.nearbyflowers.app",
+      "infoPlist": {
+        "NSLocalNetworkUsageDescription": "Nearby Flowers uses the local network to discover nearby devices and share bouquets.",
+        "NSBonjourServices": ["_nearby-flw._tcp"],
+        "NSNearbyInteractionUsageDescription": "Nearby Flowers uses Nearby Interaction to see the direction to nearby devices."
+      }
     },
     "android": {
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
+        "backgroundColor": "#FFF8F0",
         "foregroundImage": "./assets/android-icon-foreground.png",
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
-      },
-      "predictiveBackGestureEnabled": false
+      }
     },
     "web": {
       "favicon": "./assets/favicon.png"
