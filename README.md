@@ -2,6 +2,10 @@
 
 An iOS (React Native + Expo) app for sharing bouquets with nearby iPhones via swipe gestures.
 
+|                                                     |                                                     |
+| --------------------------------------------------- | --------------------------------------------------- |
+| <img src="docs/nearby-flowers-1.png" width="300" /> | <img src="docs/nearby-flowers-2.png" width="300" /> |
+
 ## How it works
 
 - Swipe a bouquet toward another iPhone to send it
@@ -9,10 +13,6 @@ An iOS (React Native + Expo) app for sharing bouquets with nearby iPhones via sw
 - Giving a bouquet plants a seed that grows into a new one over 5 minutes
 - Being near other people speeds up seed growth
 - Works offline — seeds keep growing even when the app is closed
-
-|                                                     |                                                     |
-| --------------------------------------------------- | --------------------------------------------------- |
-| <img src="docs/nearby-flowers-1.png" width="300" /> | <img src="docs/nearby-flowers-2.png" width="300" /> |
 
 ## Running
 
